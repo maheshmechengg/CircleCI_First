@@ -15,6 +15,34 @@ git remote add origin https://github.com/maheshmechengg/CircleCI_First.git
 git push -u origin main
 ```
 
+Add code in main.py
+```bash
+def Add(a, b):
+    # Use a breakpoint in the code line below to debug your script.
+    return a + b  # Press Ctrl+F8 to toggle the breakpoint.
+
+def SayHello():
+    print("Hello! First Circle-CI")
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    SayHello()
+
+```
+
+
+Add code for test
+```bash
+#Import Library
+from main import Add
+
+def TestAdd():
+    assert Add(2, 3) == 5
+    print("Add Function works correctly!")
+
+if __name__ =="__main__":
+    TestAdd()
+```
 
 
 
