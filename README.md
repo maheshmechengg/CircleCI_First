@@ -50,5 +50,27 @@ mkdir .cricleci
 notepad/touch/nano .cricleci/config.yml
 ```
 
+open circleci.com
+add project & config.yml manually
+
+test update
+
+```bash
+git checkout -b add-test
+
+```
+
+Update test with additional assert
+```bash
+assert Add(5, 5) == 10
+```
+
+push to github
+```bash
+git add .
+git commit -m "Add test to make sure"
+git push --set-upstream origin add-test
+```
+
 
 
