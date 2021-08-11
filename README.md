@@ -44,5 +44,11 @@ if __name__ =="__main__":
     TestAdd()
 ```
 
+make dir for circleci
+```bash
+mkdir .cricleci
+notepad/touch/nano .cricleci/config.yml
+```
+
 
 
